@@ -42,7 +42,6 @@ public class AuthController {
     TktietkiemRepository tktietkiemRepository;
     @Autowired
     TkthanhtoanService tkthanhtoanService;
-    TkthanhtoanRepository tkthanhtoanRepository;
     @Autowired
     RoleRepository roleRepository;
     @Autowired
