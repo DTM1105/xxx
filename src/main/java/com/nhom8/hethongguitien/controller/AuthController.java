@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
-//@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(origins = "*", maxAge = 3600)
 // @CrossOrigin(origins = "https://nhom8-lopclc02.herokuapp.com")
 @RestController
 @RequestMapping("/api/auth")
